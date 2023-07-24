@@ -1,0 +1,41 @@
+# Django specific
+*.pyc
+*.pyo
+__pycache__/
+*.sqlite3
+db.sqlite3
+*.pyc
+
+# Static and Media files
+/staticfiles/
+/media/
+
+# Virtual environment
+venv/
+.env
+
+# IDE specific
+.vscode/
+.idea/
+
+# OS-specific files
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+
+# Backup files
+*~
+
+# Compiled files
+*.pyc
+*.pyo
+
+# Cache and temporary files
+*.cache/
+*.tmp
+
+# Local development files
+local_settings.py
+settings_local.py
